@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    margin-top: 100px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 107, 21);
+    width: 600px;
+    height: 500px;
+
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(172, 172, 45);
+    width: 500px;
+    height: 400px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 216, 27);
+    width: 400px;
+    height: 300px;
+}
