@@ -1,6 +1,6 @@
 /* 
 OBJETIVO:
-Ao clicar no botão, aklerar a cor do fundo da caixa para aquamarine e apresentar o texto 'clique' no console e remover o evento click no botão
+Ao clicar no botão, alterar a cor do fundo da caixa para aquamarine e apresentar o texto 'clique' no console e remover o evento click no botão
 */
   
 let caixa = document.querySelector(".caixa");
