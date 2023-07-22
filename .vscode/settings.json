@@ -2,5 +2,12 @@
     "cSpell.words": [
         "Poderiamos",
         "queryselectoall"
-    ]
+    ],
+    "editor.minimap.maxColumn": 250,
+    "editor.lineHeight": 0,
+    "editor.renderLineHighlightOnlyWhenFocus": false,
+    "editor.wordWrapColumn": 2500,
+    "files.insertFinalNewline": false,
+    "html.format.wrapLineLength": 0,
+    "editor.fontFamily": "'fira code'"
 }
