@@ -5,3 +5,19 @@ cada um vai apresentar um texto único na consola
 e fazer com que sejam independentes uns dos outros.
 (Propagation)
 */
+let section = document.querySelector('section');
+let article = document.querySelector('article');
+let div = document.querySelector('div');
+
+section.addEventListener('click', (event)=>{
+    event.stopPropagation();
+    console.log('clique section')
+})
+article.addEventListener('click', (event)=>{
+    event.stopPropagation();
+    console.log('clique article')
+})
+div.addEventListener('click', (event)=>{
+    event.stopPropagation();
+    console.log('clique div')
+})
