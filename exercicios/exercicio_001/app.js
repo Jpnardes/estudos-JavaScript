@@ -12,8 +12,8 @@ let valor = 0;
 const h1_valor = document.querySelector('#valor');
 
 document.querySelector('#btn_incremento').addEventListener('click',()=>{
-    h1_valor.innerHTML = valor++;
+    h1_valor.innerHTML = ++valor;
 })
 document.querySelector('#btn_decremento').addEventListener('click',()=>{
-    h1_valor.innerHTML = valor--;
+    h1_valor.innerHTML = --valor;
 })
