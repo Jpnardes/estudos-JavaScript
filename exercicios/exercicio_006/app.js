@@ -1,3 +1,6 @@
+
+///------------------####################-------------------------###################---------------
+
 /* ----------------------------------------------------------------------------
 
 Exercício: 006
@@ -9,6 +12,12 @@ Enunciado:
 
     NOTA: quando uma área é apresentada, as outras devem ficar escondidas
 ---------------------------------------------------------------------------- */
+
+/*
+TAB1 - BTN
+info1 - caixa
+*/
+
 function hide_all() {
     document.querySelectorAll('[id^="info"]').forEach((el) => { el.classList.add('d-none') });
 }
