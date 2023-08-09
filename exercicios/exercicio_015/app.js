@@ -7,3 +7,18 @@ Enunciado:
 
     As palavras e frases mais recentes devem ficar no topo.
 ---------------------------------------------------------------------------- */
+/*
+.btn
+#text_post
+#posts
+*/
+document.querySelector('.btn').addEventListener('click', ()=>{
+    let input = document.querySelector('#text_post');
+    if(input.value !== ''){
+        let p = document.createElement('p');
+        p.textContent = input.value;
+        document.querySelector('#posts').prepend(p);
+        input.value = '';
+        input.focus();
+    }
+})

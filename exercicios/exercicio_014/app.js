@@ -8,4 +8,22 @@ Enunciado:
     nova inserção.
     Não são permitidas as palavras "teste", "obrigado" e "hoje"
 ---------------------------------------------------------------------------- */
+/*
+.btn
+#text_post
+#posts
+ */
 
+let nok = ["teste", "obrigado", "hoje"];
+document.querySelector('.btn').addEventListener('click', () => {
+    let input = document.querySelector('#text_post');
+    if (input.value !== ''){
+        if(!nok.includes(input.value)){
+            let p = document.createElement('p');
+            p.textContent = input.value;
+            document.querySelector('#posts').appendChild(p);
+            input.value = '';
+            input.focus();
+        }
+    }
+})

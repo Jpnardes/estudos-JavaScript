@@ -11,4 +11,24 @@ Enunciado:
     NOTA: O HTML não pode ser alterado.
 ---------------------------------------------------------------------------- */
 
+let input = document.querySelector('#text_post');
 
+//adicionar
+
+document.querySelector('.mt-3.text-center').lastElementChild.addEventListener('click', () => {
+    if (input.value !== '') {
+        let p = document.createElement('p');
+        p.textContent = input.value;
+        document.querySelector('#posts').appendChild(p);
+        input.value = '';
+        input.focus();
+    }
+})
+
+//ELIMINAR
+
+document.querySelector('.mt-3.text-center').firstElementChild.addEventListener('click', () => {
+    document.querySelector('#posts').innerHTML = null
+    input.value = '';
+    input.focus();
+});
