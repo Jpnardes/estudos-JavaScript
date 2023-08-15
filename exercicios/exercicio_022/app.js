@@ -7,3 +7,4 @@ Enunciado:
     Quando é selecionada a opção 3 no select, as checkboxes devem ficar ativas.
     Qualquer outra opção, devem desativar as checkboxes.
 ---------------------------------------------------------------------------- */
+ 

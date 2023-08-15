@@ -7,3 +7,13 @@ Enunciado:
     deve ficar amarela, indicando que o input está ativo. 
     Os inativos devem ficar a branco.
 ---------------------------------------------------------------------------- */
+ document.querySelectorAll('[name^="text_"]').forEach(e =>{
+    e.addEventListener('focus', ()=>{
+        e.style.backgroundColor = 'yellow'
+
+
+    })
+    e.addEventListener('blur', ()=>{
+        e.style.backgroundColor = 'white';
+    })
+ })
